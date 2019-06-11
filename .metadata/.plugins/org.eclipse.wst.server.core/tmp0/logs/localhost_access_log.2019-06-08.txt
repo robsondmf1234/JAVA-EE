@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Jun/2019:23:51:29 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:52:11 -0300] "GET /gerenciador/formNovaEmpresa.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:52:11 -0300] "GET /favicon.ico HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:52:14 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:52:41 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:52:51 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 78
+127.0.0.1 - - [08/Jun/2019:23:56:13 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:23:56:17 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 80

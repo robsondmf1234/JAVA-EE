@@ -1,0 +1,12 @@
+package br.com.gerenciador.servlet;
+
+public class Banco {
+	
+	private static List<Empresa>;
+
+	public void adiciona(Empresa empresa) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

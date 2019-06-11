@@ -1,0 +1,5 @@
+package br.com.gerenciador.servlet;
+
+public class Banco {
+
+}
