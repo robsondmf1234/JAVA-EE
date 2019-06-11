@@ -10,12 +10,25 @@
 </head>
 <body>
 	Lista de Empresas:
-	
 	<ul>
-		<c:forEach items="${empresas}" var="empresa">
-			<li>${empresa.nome}</li>
-		</c:forEach>
+		<c:forEach> 
+		
+		<c:/forEach>
+
 	</ul>
-	
+
+
+	<ul>
+		<%
+			List<Empresa> lista = (List<Empresa>) request.getAttribute("empresas");
+			for (Empresa empresa : lista) {
+		%>
+		<li><%=empresa.getNome()%></li>
+		<%
+			}
+		%>
+
+	</ul>
+
 </body>
 </html>
