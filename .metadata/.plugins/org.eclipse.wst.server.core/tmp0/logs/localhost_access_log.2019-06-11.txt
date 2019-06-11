@@ -25,3 +25,7 @@
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:15:47 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 316
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:15:47 -0300] "GET /favicon.ico HTTP/1.1" 404 1097
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:15:55 -0300] "POST /gerenciador/novaEmpresa;jsessionid=28F104E22970051C1FCB89F8F8F0CC2C HTTP/1.1" 200 118
+127.0.0.1 - - [11/Jun/2019:20:28:41 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:28:52 -0300] "GET /gerenciador/novaEmpresaCriada.jsp HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:29:01 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 272
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:29:06 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 70
