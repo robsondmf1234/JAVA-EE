@@ -1,7 +1,6 @@
 package br.com.gerenciador.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -17,7 +16,7 @@ public class ListaEmpresasServlet extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
-		PrintWriter out = response.getWriter();
+		//PrintWriter out = response.getWriter();
 
 		Banco banco = new Banco();
 		List<Empresa> lista = banco.getEmpresas();

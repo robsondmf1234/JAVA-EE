@@ -1,10 +1,15 @@
-<!-- JSP Para mostrar o nome da empresa -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<%
-    String nomeEmpresa = (String)request.getParameter("nome");
-    System.out.println(nomeEmpresa);
-%>
+<html>
+<body>
 
-<html><body>
-Empresa ${empresa} cadastrada com sucesso!
-</body></html>
+	<c:if test="${not empty empresa}">
+		Empresa ${empresa} cadastrada com sucesso!
+	</c:if>
+
+	<c:if test="${empty empresa}">
+		Nenhuma empresa cadasrada!
+	</c:if>
+
+</body>
+</html>
