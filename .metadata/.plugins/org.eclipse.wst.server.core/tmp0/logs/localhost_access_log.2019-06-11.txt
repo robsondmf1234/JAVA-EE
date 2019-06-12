@@ -29,3 +29,11 @@
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:28:52 -0300] "GET /gerenciador/novaEmpresaCriada.jsp HTTP/1.1" 200 67
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:29:01 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 272
 0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:29:06 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 70
+127.0.0.1 - - [11/Jun/2019:20:50:19 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:50:41 -0300] "GET /gerenciador/novaEmpresaCriada.jsp HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:50:53 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 404 1113
+127.0.0.1 - - [11/Jun/2019:20:51:57 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:52:11 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 93
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:52:18 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:52:26 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:20:52:31 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 297
