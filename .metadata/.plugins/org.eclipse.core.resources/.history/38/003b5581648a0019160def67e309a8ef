@@ -1,9 +1,0 @@
-<html>
-<body>
-
-	<form action="/gerenciador/novaEmpresa" method="post">
-		Nome:<input name="nome" type="text"> <input type="submit">
-	</form>
-
-</body>
-</html>

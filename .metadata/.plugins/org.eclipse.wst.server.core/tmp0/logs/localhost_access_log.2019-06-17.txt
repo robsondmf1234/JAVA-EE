@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/Jun/2019:22:03:54 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:22:15:54 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 371
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:22:15:54 -0300] "GET /favicon.ico HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:22:16:05 -0300] "POST /gerenciador/novaEmpresa;jsessionid=932CBE60EF2FE5D7D37AC89E45C9F4E9 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2019:22:16:08 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 325
