@@ -31,7 +31,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 		String nomeEmpresa = request.getParameter("nome");
 		String paramDataAbertura = request.getParameter("data");
 
-		//Convertendo paramDataAbertura(String) para Date
+		//Convertendo paramDataAbertura(String) para variavel do tipo Date
 		Date dataAbertura = null;
 		try {
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -39,7 +39,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 		} catch (ParseException e) {
 			throw new ServletException(e);
 		}
-
+		
 		Empresa empresa = new Empresa();
 		empresa.setNome(nomeEmpresa);
 		empresa.setDataAbertura(dataAbertura);
