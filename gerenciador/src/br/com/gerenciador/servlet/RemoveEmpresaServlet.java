@@ -26,7 +26,7 @@ public class RemoveEmpresaServlet extends HttpServlet {
 		//Removendo a empresa ,atraves do método removeEmpresa
 		banco.removeEmpresa(id);
 		
-		//Direcionando para o jsp listaEmpresas
+		//Direcionando para o jsp listaEmpresas após remover a empresa do banco
 		response.sendRedirect("listaEmpresas");
 	}
 
